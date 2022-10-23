@@ -5,7 +5,7 @@
     "type": "library",
     "keywords": ["Reselling", "Hosting", "NexoSystems", "PHP", "API", "KVM"],
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "authors": [
         {
             "name": "Bastian Leicht",
