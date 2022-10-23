@@ -1,5 +1,5 @@
 {
-    "name": "nexosystems-api",
+    "name": "dariusaurich/nexosystems-api",
     "description": "A full-featured implementation of NexoSystems",
     "license": "BSD-2-Clause",
     "type": "library",
