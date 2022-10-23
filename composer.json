@@ -1,5 +1,5 @@
 {
-    "name": "NexoSystems-API-Client",
+    "name": "nexosystems-api",
     "description": "A full-featured implementation of NexoSystems",
     "license": "BSD-2-Clause",
     "type": "library",
@@ -19,8 +19,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/dariusaurich/NexoSystem-Api-Client/issues",
-        "source": "https://github.com/dariusaurich/NexoSystem-Api-Client"
+        "issues": "https://github.com/dariusaurich/nexosystems-api/issues",
+        "source": "https://github.com/dariusaurich/nexosystems-api"
     },
     "require": {
         "php": ">=7.4",
