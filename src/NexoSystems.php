@@ -11,7 +11,7 @@ namespace NexoSystems;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Message\ResponseInterface;
-use NexoSystems\products\Kvm;
+use NexoSystems\Products\Kvm;
 use NexoSystems\Exception\ParameterException;
 
 class NexoSystems
