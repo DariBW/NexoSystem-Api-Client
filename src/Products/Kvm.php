@@ -22,6 +22,6 @@ class Kvm
 
 	public function status(string $serviceid)
     {
-        return $this->nexosystems->get(`vserver/{$serviceid}/status`);
+        return $this->nexosystems->get(`vserver/{$serviceid}/status`, []);
     }
 }
