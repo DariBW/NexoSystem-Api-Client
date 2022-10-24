@@ -24,4 +24,14 @@ class Kvm
     {
         return $this->nexosystems->get('vserver/'.$serviceid.'/status');
     }
+
+    public function stop(string $serviceid)
+    {
+        return $this->nexosystems->get('vserver/'.$serviceid.'/stop');
+    }
+
+    public function start(string $serviceid)
+    {
+        return $this->nexosystems->get('vserver/'.$serviceid.'/start');
+    }
 }
