@@ -20,7 +20,7 @@ Or add this to your `composer.json` file:
 ```json
 {
     "require": {
-        "dariusaurich/nexosystems-api": "^1.0"
+        "dariusaurich/nexosystems-api": "dev-main"
     }
 }
 ```
@@ -45,6 +45,6 @@ use NexoSystems\NexoSystems;
 $client = new NexoSystems('API-Token');
 
 // Then you are able to perform a request
-var_dump($client->kvm()->status('{serviceid}'));
+var_dump($client->kvm()->status('serviceid'));
 ?>
 ```
