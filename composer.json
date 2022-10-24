@@ -4,6 +4,8 @@
     "license": "BSD-2-Clause",
     "type": "library",
     "keywords": ["Reselling", "Hosting", "NexoSystems", "PHP", "API", "KVM"],
+    "minimum-stability": "beta",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Bastian Leicht",

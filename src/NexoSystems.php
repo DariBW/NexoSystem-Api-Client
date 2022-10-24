@@ -225,7 +225,7 @@ class NexoSystems
      */
     public function Kvm(): Kvm
     {
-        if(!$this->KvmServerHandler) $this->KvmServerHandler = new KvmD($this);
+        if(!$this->KvmServerHandler) $this->KvmServerHandler = new Kvm($this);
         return $this->KvmServerHandler;
     }
 
