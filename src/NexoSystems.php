@@ -12,6 +12,7 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Message\ResponseInterface;
 use NexoSystems\Products\Kvm;
+use NexoSystems\Products\Plesk;
 use NexoSystems\Exception\ParameterException;
 
 class NexoSystems
@@ -219,14 +220,18 @@ class NexoSystems
     /* ======================================================================================================================================== */
 
     private $KvmServerHandler;
+    private $PlesklicenseHandler;
 
-    /**
-     * @return VirtualServer
-     */
     public function Kvm(): Kvm
     {
         if(!$this->KvmServerHandler) $this->KvmServerHandler = new Kvm($this);
         return $this->KvmServerHandler;
+    }
+
+    public function Plesk(): Plesk
+    {
+        if(!$this->PlesklicenseHandler) $this->PlesklicenseHandler = new Plesk($this);
+        return $this->PlesklicenseHandler;
     }
 
 }
