@@ -220,7 +220,7 @@ class NexoSystems
     /* ======================================================================================================================================== */
 
     private $KvmServerHandler;
-    private $PlesklicenseHandler;
+    //private $PlesklicenseHandler;
 
     public function Kvm(): Kvm
     {
@@ -228,10 +228,11 @@ class NexoSystems
         return $this->KvmServerHandler;
     }
 
-    public function Plesk(): Plesk
-    {
-        if(!$this->PlesklicenseHandler) $this->PlesklicenseHandler = new Plesk($this);
-        return $this->PlesklicenseHandler;
-    }
+    // PLESK SOON
+    // public function Plesk(): Plesk
+    // {
+    //     if(!$this->PlesklicenseHandler) $this->PlesklicenseHandler = new Plesk($this);
+    //     return $this->PlesklicenseHandler;
+    // }
 
 }
