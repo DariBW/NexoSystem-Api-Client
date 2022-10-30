@@ -24,7 +24,7 @@
     },
     "require": {
         "php": ">=7.4",
-        "guzzlehttp/guzzle": "^6.5.8",
+        "guzzlehttp/guzzle": "*",
         "ext-json": "*"
     },
     "require-dev": {
