@@ -2,6 +2,8 @@ NEXOSYSTEMS PHP API Client
 =======================
 This **PHP 7.4+** library allows you to communicate with the NexoSystems-API.
 
+-> CLIENT WIRD NICHT MEHR GEUPDATED!
+
 [![Latest Stable Version](http://poser.pugx.org/dariusaurich/nexosystems-api/v)](https://packagist.org/packages/dariusaurich/nexosystems-api)
 [![License](http://poser.pugx.org/bastianleicht/hosterapi-php/license)](https://packagist.org/packages/dariusaurich/nexosystems-api)
 
